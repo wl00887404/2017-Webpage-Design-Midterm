@@ -1,0 +1,76 @@
+#instagram {
+    font-size: 14px;
+    font-family: "Roboto Mono", monospace;
+    width: 40em;
+    border: 1px solid #bbb;
+}
+
+header {
+    padding: 1em;
+    display: flex;
+    align-items: center;
+}
+header img {
+    width: 2em;
+    border-radius: 50%;
+    border: 1px solid #bbb;
+    margin-right: 0.5em;
+}
+header span {
+    font-weight: bold;
+}
+
+.photo img {
+    width: 100%;
+}
+
+section {
+    padding: 0.8em 1em;
+}
+section > *:not(:last-child) {
+    margin-bottom: 0.8rem;
+}
+
+.buttonGroup {
+    display: flex;
+    justify-content: space-between;
+}
+.buttonGroup img {
+    width: 1.8em;
+}
+.buttonGroup img:not(:last-child) {
+    margin-right: 1em;
+}
+
+.like {
+    font-weight: bold;
+}
+
+.post {
+    font-size: 0.9em;
+}
+.post .author {
+    margin-right: 0.5rem;
+    font-weight: bold;
+}
+
+time {
+    font-size: 0.9em;
+    color: #999;
+    display: block;
+}
+
+.comment {
+    display: flex;
+    padding-top: 0.8em;
+    align-items: center;
+    border-top: 1px solid #bbb;
+}
+.comment input {
+    flex-grow: 1;
+    border: none;
+}
+.comment img {
+    width: 1.2em;
+    margin-left: 1em;
+}
