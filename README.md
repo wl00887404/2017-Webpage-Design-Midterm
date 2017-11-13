@@ -9,7 +9,7 @@
 
 ## Question 1 `20%`
 
-垂直置中 `#red_ball`  
+水平垂直置中 `#red_ball`  
 無論 `#container` 大小
 
 ## Question 2 `20%`
