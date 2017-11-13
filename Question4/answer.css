@@ -1,0 +1,35 @@
+#popover:hover .prompt {
+    display: block;
+}
+
+.prompt {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    margin-left: 1em;
+}
+
+.body {
+    padding: 1em;
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: white;
+}
+
+.triangle {
+    position: absolute;
+    border: 0.5em solid transparent;
+    right: 100%;
+    top: 50%;
+}
+
+.triangle.black {
+    border-right-color: black;
+    transform: translate(0, -50%);
+}
+
+.triangle.white {
+    border-right-color: white;
+    transform: translate(1px, -50%);
+}
