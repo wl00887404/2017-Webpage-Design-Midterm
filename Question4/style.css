@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    padding: 3em;
+    display: flex;
+    font-family: "Roboto Mono", monospace;    
+}
+
+#popover {
+    position: relative;
+}
+
+#popover .target {
+    display: block;
+    color: white;
+    background-color: deepskyblue;
+    padding: 0.5em;
+    font-size: 1.5em;
+    cursor: pointer;
+    border-radius: 4px;
+}
