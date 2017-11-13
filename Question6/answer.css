@@ -1,0 +1,14 @@
+#loader {
+    border: 1em solid #b3e0f2;
+    border-top-color: #5bbce4;
+    width: 6em;
+    height: 6em;
+    border-radius: 50%;
+    animation: spinaround 800ms infinite linear;
+}
+
+@keyframes spinaround {
+    to {
+        transform: rotate(360deg);
+    }
+}
