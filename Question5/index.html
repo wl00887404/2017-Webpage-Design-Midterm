@@ -5,14 +5,22 @@
     <meta charset="UTF-8">
     <title>Question 1</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
-    <link rel="stylesheet" href="style.css">    
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="answer.css">
 </head>
 
 <body>
     <div class="container">
         <div id="model">
-            <label class="target">Click Me</label>
+            <input id="switch" type="checkbox" />
+            <label class="target" for="switch">Click Me</label>
+            <div class="prompt">
+                <label class="obstructor" for="switch"></label>
+                <div class="body">
+                    <div>你好呀，朋友！</div>
+                    <label for="switch">知道了</label>
+                </div>
+            </div>
         </div>
     </div>
 </body>
