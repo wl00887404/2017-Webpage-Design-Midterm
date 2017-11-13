@@ -67,7 +67,7 @@
     + 留言內容 為 `Portrait of Mademoiselle Irene Cahen d ’Anvers`
     + 帳號與留言間距 `0.5rem`
   + 年份
-    + 字體大小 為 `0.9em` ，內容為 `1880 年`
+    + 字體大小 為 `0.9em` ，內容為 `1880 年` ，顏色為 `#999`
   + 留言
     + ![](./assets/instagram2.jpg)
     + 寬度 為 `1px`，`#bbb` 的上框線，下面距離 `0.8em`
